@@ -1,0 +1,81 @@
+body {
+    background-color: #353B6E;
+}
+.heading {
+    color: #74DEED;
+}
+.link {
+    color: #EFB1FF;
+    font-size: 20px;
+}
+table, th, td {
+    border: 1px solid #74DEED;
+    color: #74DEED;
+}
+h1, h3, h4, p {
+    color: #74DEED;
+}
+.btn {
+    background-color: #EFB1FF;
+    padding: 8px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: #74DEED 2px outset;
+    cursor: pointer;
+    width: 2cm;
+}
+.btn:hover {
+    background-color: #74DEED;
+    width: 3cm;
+    padding: 16px;
+    border-radius: 40px;
+}
+.title {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    text-align: center;
+}
+.title2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0;
+}
+h3, h4 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+p {
+    text-align: center;
+}
+.heading2 {
+    font-size: 17px;
+    color: #74DEED;
+}
+
+@media all and (max-width: 280px) {
+    img {
+        width: 200px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    ul {
+        font-size: 14px;
+    }
+    .link {
+        font-size: 14px;
+    }
+}
